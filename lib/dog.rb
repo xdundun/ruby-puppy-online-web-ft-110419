@@ -13,6 +13,8 @@ class Dog
   end
 
   def self.print_all
-     @@all
+     @@all.map { |dog|
+       puts dog
+     }
   end
 end #end of class
